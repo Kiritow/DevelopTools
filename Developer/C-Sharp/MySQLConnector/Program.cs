@@ -16,7 +16,7 @@ namespace What
         static void Main(string[] args)
         {
             StreamReader sreader = new StreamReader("F:\\mindex_backup.txt", Encoding.Default);
-            string constr = "server=123.206.54.129;User Id=visitor;password=pwdpwdpwd;Database=musicinfo";
+            string constr = "server=XXX;User Id=XXX;password=XXX;Database=XXX";
             MySqlConnection mycon = new MySqlConnection(constr);
             mycon.Open();
             string musicID;
